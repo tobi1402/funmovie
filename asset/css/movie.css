@@ -1,0 +1,131 @@
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-movie{
+    width: 100%;
+    background-color: #272829;
+}
+.container-fluid{
+    background-color: #202020;
+}
+.card-1 {
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+.container .card-1 .col-3{
+    width: calc(1250px/4);
+    height: 220px;
+    position: relative;
+}
+
+.card-1 .col-3 .child-1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.card-1 .col-3 .child-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s;
+}
+.card-1 .col-3 .child-2{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    opacity: .7;
+    background: rgb(39,40,41);
+    background: linear-gradient(0deg, rgba(39,40,41,0.9080882352941176) 25%, rgba(0,0,0,0.364670868347339) 51%, rgba(0,0,0,0) 59%);
+}
+.card-1 .col-3 .child-3{
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    padding: 22px;
+    font-family: "Poppins", sans-serif;;
+    font-size: 16px;
+    color: white;
+}
+.card-1 .col-3 .child-3 p{
+    font-size: 13px;
+}
+
+.card-1 .item-1 a{
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.card-1 .col-3:hover img{
+    transform: scale(1.1);
+}
+.card-1 .col-3:hover .child-2{
+    opacity: .9;
+}
+.card-1 .child-4{
+    position: absolute;
+    z-index: 4;
+    top: -69px;
+    left: 125px;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: #ff6a0000 solid 5px;
+    transition: .2s;
+}
+
+.card-1 :nth-child(1):hover .child-4{
+    top: 80px;
+}
+.card-1 :nth-child(1):hover .child-4:hover{
+    border-radius: 50%;
+    border: #FF6A00 solid 5px;
+}
+
+
+.card-1 :nth-child(2):hover .child-4{
+    top: 80px;
+}
+.card-1 :nth-child(2) .child-4:hover{
+    border-radius: 50%;
+    border: #FF6A00 solid 5px;
+}
+
+
+.card-1 :nth-child(3):hover .child-4{
+    top: 80px;
+}
+.card-1 :nth-child(3) .child-4:hover{
+    border-radius: 50%;
+    border: #FF6A00 solid 5px;
+}
+
+.card-1 :nth-child(4):hover .child-4{
+    top: 80px;
+}
+.card-1 :nth-child(4) .child-4:hover{
+    border-radius: 50%;
+    border: #FF6A00 solid 5px;
+}
+
+.swiper{
+    height: 400px;
+}
+.swiper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

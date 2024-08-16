@@ -1,0 +1,28 @@
+.paragraph{
+    width: 100%;
+    height: 600px;
+    font-family: sans-serif;
+}
+
+.paragraph h1{
+    padding: 20px 0;
+    color: #F07601;
+    font-size: 40px;
+}
+.paragraph p{
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+    opacity: 95%;
+    text-align: justify;
+}
+.navbar-nav .nav-item:nth-child(6) .nav-link{
+    color: #F07601;
+}
+
+.navbar-nav{
+    width: 900px;
+}
+.nav-item{
+    padding: 0 10px 5px 10px;
+}
